@@ -42,7 +42,7 @@ const ProductMerk = [
 const MerkProduct = () => {
   return (
     <div className="bg-white w-full h-fit flex items-center justify-center p-2 md:px-20 lg:px-44 py-14">
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-row gap-4 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 grid-flow-row gap-4 w-full">
         {ProductMerk.map((a, i) => {
           return (
             <div
@@ -55,7 +55,7 @@ const MerkProduct = () => {
                   src={a.img}
                   width={200}
                   height={200}
-                  className="w-52 h-52 border"
+                  className="w-full h-fit md:w-52 md:h-52 border"
                 />
                 <p className="text-xl font-bold py-2">{a.title}</p>
               </div>
