@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Recomend = () => {
   return (
-    <div className="bg-white w-full h-fit flex flex-col items-center justify-center px-2 md:px-44 py-14 gap-y-14">
+    <div className="bg-white w-full h-fit flex flex-col items-center justify-center px-2 md:px-20 lg:px-44 py-14 gap-y-14">
       <p className="text-4xl font-bold">Rekomendasi</p>
-      <div class="grid grid-rows-4 md:grid-rows-1 grid-flow-col gap-6 w-full">
+      <div class="grid grid-rows-4 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-8 w-full">
         {Data.map((a, o) => {
           return (
             <div

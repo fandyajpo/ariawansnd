@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#2F1A1A]/50 w-full h-24 px-2  md:px-44 flex items-center">
+      <div className="bg-[#2F1A1A]/50 w-full h-24 px-2  md:px-20 lg:px-44 flex items-center">
         <div>
           <p className="text-3xl font-bold">Contact us</p>
           <p>0361 429222E: atika.mandiri@yahoo.com</p>
         </div>
       </div>
-      <div className="bg-[#2F1A1A]/20 w-full grid grid-rows-2 grid-flow-col gap-4 h-fit py-14 p-2 md:px-44">
+      <div className="bg-[#2F1A1A]/20 w-full grid grid-rows-2 grid-flow-col gap-4 h-fit py-14 p-2 md:px-20 lg:px-44">
         <div>
           <p className="text-md font-bold">Services</p>
           <p className="text-md font-light hover:underline">NEWS</p>

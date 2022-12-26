@@ -41,8 +41,8 @@ const ProductMerk = [
 
 const MerkProduct = () => {
   return (
-    <div className="bg-white w-full h-fit flex items-center justify-center p-2 md:px-44 py-14">
-      <div class="grid grid-cols-2 grid-flow-row gap-4 w-full">
+    <div className="bg-white w-full h-fit flex items-center justify-center p-2 md:px-20 lg:px-44 py-14">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-row gap-4 w-full">
         {ProductMerk.map((a, i) => {
           return (
             <div

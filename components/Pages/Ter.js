@@ -19,9 +19,8 @@ const TerData = [
 
 const Recomend = () => {
   return (
-    <div className="bg-white w-full h-fit flex flex-col items-center justify-center p-2 md:px-44 py-14 gap-y-14">
-      <p className="text-4xl font-bold">Rekomendasi</p>
-      <div class="grid grid-rows-3 md:grid-rows-1 grid-flow-col gap-4 w-full">
+    <div className="bg-white w-full h-fit flex flex-col items-center justify-center p-2 md:px-20 lg:px-44 py-14 gap-y-14">
+      <div class="grid grid-rows-3 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-4 w-full">
         {TerData.map((a, o) => {
           return (
             <div

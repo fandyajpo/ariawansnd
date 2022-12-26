@@ -15,7 +15,7 @@ const Navbar = () => {
   }, [open]);
 
   return (
-    <div className="bg-white h-24 flex flex-col md:flex-row items-center gap-x-8 justify-between md:px-44 shadow-md">
+    <div className="bg-white h-24 flex flex-col md:flex-row items-center gap-x-8 justify-between md:px-20 lg:px-44 shadow-md">
       <div className="flex flex-row items-center gap-x-8 w-full px-4">
         <div>
           <Image src={Logo} alt={"Test"} className="w-36 h-24" />
@@ -53,25 +53,25 @@ const Navbar = () => {
           />
         </Link>
         <Link
-          href={"/menu"}
-          className={`${router.pathname === "/menu" ? "" : ""} relative pl-2`}
+          href={"/"}
+          className={`${router.pathname === "/" ? "" : ""} relative pl-2`}
         >
           Berita
           <div
             className={`rounded-full ${
-              router.pathname === "/menu" ? "h-1 bg-blue-700" : "h-0 bg-white"
+              router.pathname === "/" ? "h-1 bg-blue-700" : "h-0 bg-white"
             } duration-200`}
           />
         </Link>
 
         <Link
-          href={"/help"}
-          className={`${router.pathname === "/help" ? "" : ""} relative pl-2`}
+          href={"/"}
+          className={`${router.pathname === "/" ? "" : ""} relative pl-2`}
         >
           Contact
           <div
             className={`rounded-full ${
-              router.pathname === "/help" ? "h-1 bg-blue-700" : "h-0 bg-white"
+              router.pathname === "/" ? "h-1 bg-blue-700" : "h-0 bg-white"
             } duration-200`}
           />
         </Link>
