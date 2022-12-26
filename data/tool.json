@@ -1,0 +1,58 @@
+[
+  {
+    "id": "",
+    "productName": "Kran Wastafel",
+    "productImage": "https://cdn.discordapp.com/attachments/1055060226858029076/1056580354045128714/image_73_1.png",
+    "productPrice": 135000,
+    "productDetail": [
+      {
+        "condition": "Baru",
+        "weight": 375,
+        "category": "Keran Air",
+        "etalase": "ONDA"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "productName": "Kran Wastafel",
+    "productImage": "https://cdn.discordapp.com/attachments/1055060226858029076/1056580353738936340/image_70_1.png",
+    "productPrice": 135000,
+    "productDetail": [
+      {
+        "condition": "Baru",
+        "weight": 375,
+        "category": "Keran Air",
+        "etalase": "ONDA"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "productName": "Kran Wastafel",
+    "productImage": "https://cdn.discordapp.com/attachments/1055060226858029076/1056580353176907776/image_23_1.png",
+    "productPrice": 135000,
+    "productDetail": [
+      {
+        "condition": "Baru",
+        "weight": 375,
+        "category": "Keran Air",
+        "etalase": "ONDA"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "productName": "Kran Wastafel",
+    "productImage": "https://cdn.discordapp.com/attachments/1055060226858029076/1056580353466302584/image_74_1.png",
+    "productPrice": 135000,
+    "productDetail": [
+      {
+        "condition": "Baru",
+        "weight": 375,
+        "category": "Keran Air",
+        "etalase": "ONDA"
+      }
+    ]
+  }
+]
