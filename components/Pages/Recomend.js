@@ -9,11 +9,8 @@ const Recomend = () => {
       <div class="grid grid-rows-4 md:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-8 w-full">
         {Data.map((a, o) => {
           return (
-            <Link href={`/detail`}>
-              <div
-                key={o}
-                className="group w-full h-80  flex flex-col items-center gap-y-4 p-2 border-2 border-[#2F1A1A]/20 rounded-xl"
-              >
+            <Link href={`/detail`} key={o}>
+              <div className="group w-full h-80  flex flex-col items-center gap-y-4 p-2 border-2 border-[#2F1A1A]/20 rounded-xl">
                 <div className="text-left">
                   <Image
                     alt={a.id}
